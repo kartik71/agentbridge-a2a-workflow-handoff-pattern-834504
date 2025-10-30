@@ -1,0 +1,87 @@
+{
+  "id": "published-1761822127780-2",
+  "name": "A2A Workflow Handoff Pattern",
+  "description": "Sequential agent handoff with context passing",
+  "industry": "Technology",
+  "pattern": "Multi-Agent",
+  "complexity": "Medium",
+  "tags": [
+    {
+      "name": "a2a"
+    },
+    {
+      "name": "handoff"
+    },
+    {
+      "name": "workflow"
+    },
+    {
+      "name": "sequential"
+    },
+    {
+      "name": "pipeline"
+    }
+  ],
+  "steps": [
+    {
+      "id": "node_0",
+      "name": "A2A Webhook",
+      "description": "A2A Webhook"
+    },
+    {
+      "id": "node_1",
+      "name": "Agent A",
+      "description": "Agent A"
+    },
+    {
+      "id": "node_2",
+      "name": "Handoff Context",
+      "description": "Handoff Context"
+    },
+    {
+      "id": "node_3",
+      "name": "Agent B",
+      "description": "Agent B"
+    },
+    {
+      "id": "node_4",
+      "name": "Response",
+      "description": "Response"
+    },
+    {
+      "id": "sticky_overview_1761822146470",
+      "name": "Overview",
+      "description": "Overview"
+    },
+    {
+      "id": "sticky_meta_1761822146470",
+      "name": "Meta",
+      "description": "Meta"
+    }
+  ],
+  "publishedAt": "2025-10-30T11:03:33.101Z",
+  "destination": "launchpad",
+  "deployments": 8,
+  "lastDeployed": "2025-10-30T11:03:33.101Z",
+  "configuration": {
+    "provider": "azure",
+    "region": "eastus",
+    "compute": "cpu-optimized"
+  },
+  "healthStatus": "healthy",
+  "deploymentCount": 20,
+  "githubRepo": "https://github.com/agentbridge/a2a-workflow-handoff-pattern",
+  "maintainer": "You",
+  "downloads": 924,
+  "rating": 4.204074164870806,
+  "createdAt": "2025-10-30T11:03:33.101Z",
+  "updatedAt": "2025-10-30T11:03:33.101Z",
+  "isPublished": true,
+  "isFeatured": false,
+  "deploymentMetadata": {
+    "publishedBy": "You",
+    "publishedAt": "2025-10-30T11:03:33.101Z",
+    "source": "Template Selection",
+    "version": "1.0.0"
+  }
+}
